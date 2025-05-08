@@ -1,0 +1,4 @@
+1. Search for the CIDs, which belong to the compounds studied in BioAssays:
+PubChem Compound TOC: BioAssay Results
+https://pubchem.ncbi.nlm.nih.gov/#query=ZSLDG8z-qUKeaKtxKQniWJtjdwMS8yl3U1IyO0hDIDpIWhw&alias=PubChem%20Compound%20TOC%3A%20BioAssay%20Results&sort=cid&page=1
+--> cid identifiers --> download summary

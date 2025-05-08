@@ -1,0 +1,6 @@
+SELECT DISTINCT(a.molregno) as molregno_, canonical_smiles as canonical_smiles_
+				FROM activities as a
+					JOIN compound_structures as c
+						WHERE a.molregno = c.molregno AND
+						c.canonical_smiles IS NOT NULL
+	    INTO OUTFILE '.../structures_ChEMBL_25-04-25.tsv';
